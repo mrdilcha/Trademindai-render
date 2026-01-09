@@ -21,7 +21,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # ================= CONFIG =================
-BOT_TOKEN = "8021059653:AAHXxaLnRIb7iv5C3FEdZO_eLbLU2JtPdaQ"
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 MIN_CANDLES = 6
 STRONG_BODY_RATIO = 0.5
 MAX_WORKERS = 2
